@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Button text="Spell One&#10;" style="height: 145px;"/>
+        <ui:Button text="Spell Two" style="height: 143px;"/>
+        <ui:Button text="Spell Three&#10;" style="height: 149px;"/>
+    </ui:VisualElement>
+</ui:UXML>
