@@ -1,0 +1,25 @@
+:root {
+}
+
+.ButtonStyle {
+    -unity-text-outline-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 1px;
+    font-size: 54px;
+    background-image: none;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-left-color: rgb(142, 99, 21);
+    border-right-color: rgb(142, 99, 21);
+    border-top-color: rgb(142, 99, 21);
+    border-bottom-color: rgb(142, 99, 21);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgb(156, 97, 0);
+    transition-duration: 0.5s;
+}
+
+.ButtonStyle:hover {
+    background-color: rgb(198, 200, 108);
+    scale: 1.03 1.03 1.03;
+}
