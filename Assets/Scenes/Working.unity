@@ -517,7 +517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5962893914663741625, guid: 32ad88bd880a15947a274264df3ad633, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.071
+      value: 0.182
       objectReference: {fileID: 0}
     - target: {fileID: 5962893914663741625, guid: 32ad88bd880a15947a274264df3ad633, type: 3}
       propertyPath: m_LocalRotation.x
@@ -797,6 +797,82 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553132883}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &595237230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 595237232}
+  - component: {fileID: 595237231}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &595237231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595237230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8023f2b3b21bb47beb87a86e037ed3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIController
+  uiDocumentOne: {fileID: 1154471320}
+  uiDocumentTwo: {fileID: 1605527848}
+  spellIcons:
+  - {fileID: 2800000, guid: d34499fb9601f7b4bb6a2fe9a1da9fd5, type: 3}
+  - {fileID: 2800000, guid: 094593314fc53ff40a42161eca69417d, type: 3}
+  - {fileID: 2800000, guid: 8243267f7764d7b418c4feeac3ce7e14, type: 3}
+  - {fileID: 2800000, guid: fffb9723018be2d4ab2bade8258a6453, type: 3}
+  - {fileID: 2800000, guid: a36c86a39442c84419be4f5c954c2d63, type: 3}
+  - {fileID: 2800000, guid: a86ea5ec2fb18774f894d7a3830d08da, type: 3}
+  - {fileID: 2800000, guid: 51fb119d0af23fd44bc2b8b5ddb9c477, type: 3}
+  - {fileID: 2800000, guid: 345e17cdae70b6b4da001d2901b06ded, type: 3}
+  - {fileID: 2800000, guid: ce7ed934de33412469b4f860875ce8d1, type: 3}
+  - {fileID: 2800000, guid: 712b98c06a1b8714bb316c75a7101c49, type: 3}
+  - {fileID: 2800000, guid: bf0367fcf7afb9e4eb32868bc55bfaef, type: 3}
+  - {fileID: 2800000, guid: 1fcaf60b241e7bf49b4e19c8e10422e9, type: 3}
+  - {fileID: 2800000, guid: 30f4a8673c11e8b46943499ffe91466f, type: 3}
+  - {fileID: 2800000, guid: 790aa73541ebe4c46b6451f14321a13a, type: 3}
+  - {fileID: 2800000, guid: d73989232540ccb43931fa0163161bf1, type: 3}
+  - {fileID: 2800000, guid: 23e76d221eddc9d43bce79b873d7f698, type: 3}
+  - {fileID: 2800000, guid: b60d2368d868c4a46beeffa4a0bedfe9, type: 3}
+  - {fileID: 2800000, guid: 99dad944629a3e34b86667c7eeaf3f42, type: 3}
+  - {fileID: 2800000, guid: 46443a7c6ad40b14fbaf792fadc2c596, type: 3}
+  - {fileID: 2800000, guid: 26a4f45e604a1cb49bc293f5d99f23dc, type: 3}
+  - {fileID: 2800000, guid: 3fb8d05e883fff242bc853f6587bb76c, type: 3}
+  - {fileID: 2800000, guid: ba3ae1026353f9b42b2101bcc3109337, type: 3}
+  - {fileID: 2800000, guid: 8c57016689f20d943a4af8de0d34edd0, type: 3}
+  - {fileID: 2800000, guid: 9aad2a5086feba14a98f4639666714c6, type: 3}
+  buttonScriptOne: {fileID: 283274388}
+  buttonScriptTwo: {fileID: 1605527844}
+  tapScript: {fileID: 1190538351}
+  spell: 0
+  pageNumber: 0
+--- !u!4 &595237232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595237230}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.88122, y: 0.125, z: 8.22707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &853127344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,6 +1227,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 891900956642744621, guid: 32ad88bd880a15947a274264df3ad633, type: 3}
   m_PrefabInstance: {fileID: 225653319}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1154471320 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6399840278792567927, guid: 32ad88bd880a15947a274264df3ad633, type: 3}
+  m_PrefabInstance: {fileID: 225653319}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
 --- !u!1 &1160129514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,7 +1290,7 @@ GameObject:
   - component: {fileID: 1190538349}
   - component: {fileID: 1190538348}
   - component: {fileID: 1190538347}
-  - component: {fileID: 1190538346}
+  - component: {fileID: 1190538351}
   m_Layer: 5
   m_Name: UITap
   m_TagString: Untagged
@@ -1226,19 +1313,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1043406533}
   m_LocalEulerAnglesHint: {x: -177.976, y: 7.9579926, z: -92.125}
---- !u!114 &1190538346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190538344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d5b9a58b661d3949bd8db4582c622f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonScript
-  spellVariable: 0
 --- !u!114 &1190538347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1379,6 +1453,22 @@ MonoBehaviour:
   m_PivotReferenceSize: 0
   m_Pivot: 0
   m_WorldSpaceCollider: {fileID: 0}
+--- !u!114 &1190538351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190538344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8784a8ca74cb14149b39291e92950777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TapScript
+  button1Value: 0
+  button2Value: 0
+  button3Value: 0
+  TapVariable: 0
 --- !u!1 &1241037436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,7 +1627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Magic
   spell: 0
-  buttonScript: {fileID: 283274388}
+  uiController: {fileID: 595237231}
   primaryButtonAction: {fileID: -3875704489234743591, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   squarePrefab: {fileID: 848163455715614539, guid: c4aac0d95ecd88c4b8be4caeff804dcb, type: 3}
   ballPrefab: {fileID: 1412464202316205223, guid: d6dc2f587e777ab44ab1bb59a78b361e, type: 3}
@@ -1595,6 +1685,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonScript
   spellVariable: 0
+  button1Value: 0
+  button2Value: 0
+  button3Value: 0
+  button4Value: 0
 --- !u!114 &1605527845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1726,7 +1820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
   m_PanelSettings: {fileID: 11400000, guid: 26ed049567ede0d49a983c502a6f64db, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: b077001368adc2e4585ac4463da2ea23, type: 3}
+  sourceAsset: {fileID: 9197481963319205126, guid: 63de4ec9e2617594ea96f12178b2f6b8, type: 3}
   m_SortingOrder: 0
   m_Position: 0
   m_WorldSpaceSizeMode: 1
@@ -2716,5 +2810,6 @@ SceneRoots:
   - {fileID: 853127346}
   - {fileID: 269759596}
   - {fileID: 1949500442}
+  - {fileID: 595237232}
   - {fileID: 225653319}
   - {fileID: 1160129515}

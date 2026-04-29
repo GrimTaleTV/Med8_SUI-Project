@@ -9,7 +9,7 @@ public class Magic : MonoBehaviour
     // for determining which spell is selected
     public int spell;
     // for accessing the spell variable in ButtonScript
-    public ButtonScript buttonScript;
+    public UIController uiController;
     // for accessing the primary button input action
     [SerializeField] private InputActionReference primaryButtonAction;
 
@@ -30,7 +30,7 @@ public class Magic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        spell = buttonScript.spellVariable;
+        spell = uiController.spell;
         
         if (spell == 3)
         {

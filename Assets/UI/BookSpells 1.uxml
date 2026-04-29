@@ -5,6 +5,6 @@
         <ui:Button text="" name="Button1" class="ButtonStyle" style="background-image: url(&quot;project://database/Assets/UI/Tex/AddCube.jpg?fileID=2800000&amp;guid=d34499fb9601f7b4bb6a2fe9a1da9fd5&amp;type=3#AddCube&quot;); background-color: rgb(255, 255, 255); -unity-text-align: middle-right; white-space: pre-wrap;"/>
         <ui:Button text="" name="Button2" class="ButtonStyle" style="background-image: url(&quot;project://database/Assets/UI/Tex/AddSquire.jpg?fileID=2800000&amp;guid=094593314fc53ff40a42161eca69417d&amp;type=3#AddSquire&quot;);"/>
         <ui:Button text="" name="Button3" class="ButtonStyle" style="background-image: url(&quot;project://database/Assets/UI/Tex/Destroy.jpg?fileID=2800000&amp;guid=8243267f7764d7b418c4feeac3ce7e14&amp;type=3#Destroy&quot;);"/>
-        <ui:Button text="" name="Button4" class="ButtonStyle" style="align-content: flex-start; bottom: -38px; width: 50px; height: 50px; right: -233px; background-image: url(&quot;project://database/Assets/UI/Tex/ArrowLeft.jpg?fileID=2800000&amp;guid=9c70e5ff4b462554b933eda3e135af07&amp;type=3#ArrowLeft&quot;);"/>
+        <ui:Button text="" name="Button4" class="ButtonStyle" style="align-content: flex-start; bottom: -38px; width: 50px; height: 50px; right: -233px; background-image: url(&quot;project://database/Assets/UI/Tex/ArrowRight.jpg?fileID=2800000&amp;guid=8cb589f8286b5bc4f9bcb1bc068cdf30&amp;type=3#ArrowRight&quot;);"/>
     </ui:VisualElement>
 </ui:UXML>
