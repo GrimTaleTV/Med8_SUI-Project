@@ -1,0 +1,13 @@
+:root {
+}
+
+.TapStyle {
+    align-self: flex-start;
+    width: 60px;
+    height: 50px;
+}
+
+.TapStyle:hover {
+    scale: 1.05 1.05 1.05;
+    -unity-background-image-tint-color: rgb(255, 244, 235);
+}

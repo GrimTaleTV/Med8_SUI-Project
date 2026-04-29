@@ -6,20 +6,29 @@
     -unity-text-outline-width: 1px;
     font-size: 54px;
     background-image: none;
-    border-top-left-radius: 36px;
-    border-top-right-radius: 36px;
-    border-bottom-right-radius: 36px;
-    border-bottom-left-radius: 36px;
-    border-left-color: rgb(142, 99, 21);
-    border-right-color: rgb(142, 99, 21);
-    border-top-color: rgb(142, 99, 21);
-    border-bottom-color: rgb(142, 99, 21);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
     -unity-background-image-tint-color: rgb(255, 255, 255);
-    background-color: rgb(156, 97, 0);
+    background-color: rgb(255, 255, 255);
     transition-duration: 0.5s;
+    align-items: flex-start;
+    align-self: flex-start;
+    width: 110px;
+    height: 110px;
 }
 
 .ButtonStyle:hover {
     background-color: rgb(198, 200, 108);
     scale: 1.03 1.03 1.03;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    -unity-background-image-tint-color: rgb(225, 255, 251);
 }

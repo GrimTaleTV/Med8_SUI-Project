@@ -109,13 +109,13 @@ public class BookController : MonoBehaviour
     void OpenBook()
     {
         animator.SetInteger("Anim", openBookAnim);
-        UI.SetActive(true);
+        //UI.SetActive(true);
     }
 
     void CloseBook()
     {
         animator.SetInteger("Anim", closeBookAnim);
-        UI.SetActive(false);
+        //UI.SetActive(false);
 
         // If already moving back, don't start another coroutine
         if (closeCoroutine == null)

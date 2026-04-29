@@ -1,8 +1,10 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/ButtonStyle.uss?fileID=7433441132597879392&amp;guid=653867856406e32439bf6fae9a1139e0&amp;type=3#ButtonStyle"/>
+    <ui:Label text="1" name="Page" style="white-space: pre; align-self: flex-start;"/>
     <ui:VisualElement style="flex-grow: 1;">
-        <ui:Button text="Spell One&#10;" name="Button1" class="ButtonStyle" style="height: 145px;"/>
-        <ui:Button text="Spell Two" name="Button2" class="ButtonStyle" style="height: 143px;"/>
-        <ui:Button text="Spell Three&#10;" name="Button3" class="ButtonStyle" style="height: 149px;"/>
+        <ui:Button text="" name="Button1" class="ButtonStyle" style="background-image: url(&quot;project://database/Assets/UI/Tex/AddCube.jpg?fileID=2800000&amp;guid=d34499fb9601f7b4bb6a2fe9a1da9fd5&amp;type=3#AddCube&quot;); background-color: rgb(255, 255, 255); -unity-text-align: middle-right; white-space: pre-wrap;"/>
+        <ui:Button text="" name="Button2" class="ButtonStyle" style="background-image: url(&quot;project://database/Assets/UI/Tex/AddSquire.jpg?fileID=2800000&amp;guid=094593314fc53ff40a42161eca69417d&amp;type=3#AddSquire&quot;);"/>
+        <ui:Button text="" name="Button3" class="ButtonStyle" style="background-image: url(&quot;project://database/Assets/UI/Tex/Destroy.jpg?fileID=2800000&amp;guid=8243267f7764d7b418c4feeac3ce7e14&amp;type=3#Destroy&quot;);"/>
+        <ui:Button text="" name="Button4" class="ButtonStyle" style="align-content: flex-start; bottom: -38px; width: 50px; height: 50px; right: -233px;"/>
     </ui:VisualElement>
 </ui:UXML>

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/TapStyle.uss?fileID=7433441132597879392&amp;guid=24474626dfa242a429f232d0fbfd019f&amp;type=3#TapStyle"/>
+    <ui:Button text="" selectable="true" class="TapStyle" style="background-image: url(&quot;project://database/Assets/UI/Tex/TapAll.jpg?fileID=2800000&amp;guid=1cc5e714b6593454a99dcca7f661493b&amp;type=3#TapAll&quot;);"/>
+    <ui:Button class="TapStyle" style="background-image: url(&quot;project://database/Assets/UI/Tex/TapObjects.jpg?fileID=2800000&amp;guid=6de8e90d9ce02834fac409957d4ce1c7&amp;type=3#TapObjects&quot;);"/>
+    <ui:Button class="TapStyle" style="background-image: url(&quot;project://database/Assets/UI/Tex/TapSpells.jpg?fileID=2800000&amp;guid=690995a7004638f44b0f442fc5d2a121&amp;type=3#TapSpells&quot;);"/>
+</ui:UXML>
