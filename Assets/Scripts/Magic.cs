@@ -13,8 +13,8 @@ public class Magic : MonoBehaviour
     // for accessing the primary button input action
     [SerializeField] private InputActionReference primaryButtonAction;
 
-    public GameObject squarePrefab;
-    public GameObject ballPrefab;
+    [Header("Spell Prefabs")]
+    [SerializeField] private GameObject[] spellPrefabs;
 
     [Header("Raycast Settings")]
     [SerializeField] private float rayDistance = 10f;
@@ -32,7 +32,7 @@ public class Magic : MonoBehaviour
     {
         spell = uiController.spell;
         
-        if (spell == 3)
+        if (spell == 1)
         {
             // Change material of pointed object
             ChangePointedObjectMaterial();
@@ -66,25 +66,85 @@ public class Magic : MonoBehaviour
 
         if (spell == 1)
         {
-            Debug.Log("First spell selected");
-            SpawnObjectAtRaycast(squarePrefab);
+            //Debug.Log("First spell selected");
+            DestroyPointedObject();
         }
 
         if (spell == 2)
         {
-            Debug.Log("Second spell selected");
-            SpawnObjectAtRaycast(ballPrefab);
+            //Debug.Log("Second spell selected");
+            SpawnObjectAtRaycast(0); // Index 0 for second spell
         }
 
         if (spell == 3)
         {
-            Debug.Log("Third spell selected");
-            DestroyPointedObject();
+            //Debug.Log("Third spell selected");
+            SpawnObjectAtRaycast(1); // Index 1 for first spell
+        }
+
+        if (spell == 4)
+        {
+            SpawnObjectAtRaycast(2);
+        }
+
+        if (spell == 5)
+        {
+            SpawnObjectAtRaycast(3);
+        }
+
+        if (spell == 6)
+        {
+            SpawnObjectAtRaycast(4);
+        }
+
+        if (spell == 7)
+        {
+            SpawnObjectAtRaycast(5);
+        }
+
+        if (spell == 8)
+        {
+            SpawnObjectAtRaycast(6);
+        }
+
+        if (spell == 9)
+        {
+            SpawnObjectAtRaycast(7);
+        }
+
+        if (spell == 10)
+        {
+            SpawnObjectAtRaycast(8);
+        }
+
+        if (spell == 11)
+        {
+            SpawnObjectAtRaycast(9);
+        }
+
+        if (spell == 12)
+        {
+            SpawnObjectAtRaycast(10);
         }
     }
 
-    void SpawnObjectAtRaycast(GameObject prefab)
+    void SpawnObjectAtRaycast(int prefabIndex)
     {
+        // Check if the index is valid
+        if (prefabIndex < 0 || prefabIndex >= spellPrefabs.Length)
+        {
+            Debug.LogError($"Invalid prefab index: {prefabIndex}");
+            return;
+        }
+
+        GameObject prefab = spellPrefabs[prefabIndex];
+
+        if (prefab == null)
+        {
+            Debug.LogError($"Prefab at index {prefabIndex} is null");
+            return;
+        }
+
         RaycastHit hit;
 
         // Cast a ray from the controller's position in the forward direction

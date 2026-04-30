@@ -588,9 +588,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2260749945711335397, guid: 32ad88bd880a15947a274264df3ad633, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1351893890}
-    - targetCorrespondingSourceObject: {fileID: 491098156489798995, guid: 32ad88bd880a15947a274264df3ad633, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 32ad88bd880a15947a274264df3ad633, type: 3}
 --- !u!1 &269759594
 GameObject:
@@ -1629,13 +1626,7 @@ MonoBehaviour:
   spell: 0
   uiController: {fileID: 595237231}
   primaryButtonAction: {fileID: -3875704489234743591, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  spellPrefabs:
-  - {fileID: 1412464202316205223, guid: d6dc2f587e777ab44ab1bb59a78b361e, type: 3}
-  - {fileID: 848163455715614539, guid: c4aac0d95ecd88c4b8be4caeff804dcb, type: 3}
-  - {fileID: 5072831941700475591, guid: 6fb1f18df4cbc834297f28d4136d5ef6, type: 3}
-  - {fileID: 5152557078457836784, guid: c3d27c3a3e50c0c47b0a9b8944de2e87, type: 3}
-  - {fileID: 357857904544891111, guid: d13ec486b4bd478478c7039bff490e9e, type: 3}
-  - {fileID: 2410774499738855256, guid: a40b2dcd3b8883d49b265f0079c1a85a, type: 3}
+  spellPrefabs: []
   rayDistance: 10
   destructibleLayers:
     serializedVersion: 2
