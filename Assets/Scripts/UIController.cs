@@ -27,6 +27,7 @@ public class UIController : MonoBehaviour
 
     // cache last applied page to avoid redundant work
     private int lastPageNumber = -1;
+    private int lastTap;
 
     // stored delegates so we can unsubscribe cleanly
     private Action decrementPageHandler;
@@ -91,26 +92,32 @@ public class UIController : MonoBehaviour
         {
             if (tapScript.TapVariable == 1)
             {
-                pageNumber = 0;
                 pageNumber = Mathf.Clamp(pageNumber, 0, 3);
             }
             else if (tapScript.TapVariable == 2)
             {
-                pageNumber = 0;
                 // pages 0..1
                 pageNumber = Mathf.Clamp(pageNumber, 0, 1);
             }
             else if (tapScript.TapVariable == 3)
             {
-                pageNumber = 2;
                 // pages 2..3
                 pageNumber = Mathf.Clamp(pageNumber, 2, 3);
             }
         }
+
+        if (lastTap != tapScript.TapVariable)
+        {
+            lastTap = tapScript.TapVariable;
+            pageNumber = 0;
+        }
+
         else
         {
             pageNumber = Mathf.Clamp(pageNumber, 0, 3);
         }
+
+
 
         // update page-specific button values (guard nulls)
         if (buttonScriptOne != null)
